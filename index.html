@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Resume Builder</title>
+
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle">
+        <button onclick="toggleTheme()">🌙</button>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>🚀 Advanced Resume Builder</h1>
+        <p>Create a professional resume in minutes.</p>
+        <input type="text" id="searchBox" onkeyup="searchResumes()" placeholder="🔍 Search Resume Templates">
+    </header>
+
+    <!-- Resume Templates Section -->
+    <main>
+        <div class="resume-container" id="resumeContainer">
+            <!-- Dynamic Resume Templates Will Load Here -->
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Developed & Designed by Infinity Dynamics 🚀</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
