@@ -1,0 +1,79 @@
+/* Global Styles */
+body {
+    font-family: 'Karla', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    transition: background 0.3s, color 0.3s;
+}
+.dark-mode {
+    background: #222;
+    color: white;
+}
+
+/* Header */
+.header {
+    padding: 2rem;
+    background: #007bff;
+    color: white;
+}
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+.header input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Resume Templates */
+.resume-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.resume-card {
+    background: white;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+.resume-card:hover {
+    transform: scale(1.05);
+}
+.resume-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+.resume-card h3 {
+    margin: 10px 0;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.theme-toggle button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background: #007bff;
+    color: white;
+    margin-top: 20px;
+}
